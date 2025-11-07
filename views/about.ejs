@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<%- include('partials/header') %>
+
+<!--link to css files-->
+<head>
+  <meta charset="utf-8">
+  <title>About — Lemuel Lau</title>
+  <!-- Desktop / Tablet / Mobile CSS files -->
+  <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 992px)">
+</head>
+
+<body>
+
+    <!--article with page content-->
+    <main>
+      <article>
+        <h2>Hello — I'm Lemuel</h2>
+        <p>I'm currently studying in networking and IT. I enjoy problem-solving, experimenting with new technologies, and learning networking fundamentals.</p>
+
+        <!--section containing a photo-->
+        <figure>
+          <img src="Me.png" alt="Photo of Lemuel Lau" class="profile-photo">
+        </figure>
+
+        <!--section containing video-->
+        <section>
+          <h3>Introductory Video</h3>
+          <video controls poster="on_record.mp4" class="intro-video">
+            <source src="on_record.mp4" type="video/mp4">
+          </video>
+        </section>
+      </article>
+    </main>
+
+</body>
+</html>
+
+<%- include('partials/footer') %>

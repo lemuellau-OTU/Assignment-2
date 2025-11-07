@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<%- include('partials/header') %>
+
+<!--link to css files-->
+<head>
+  <meta charset="utf-8">
+  <title>Contact — Lemuel Lau</title>
+  <!-- Desktop / Tablet / Mobile CSS files -->
+  <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 992px)">
+</head>
+
+<body>
+
+    <!--article with all the forms-->
+    <main>
+      <article>
+        <h2>Get in touch</h2>
+        <!--forms with placeholder and requirement-->
+        <form id="contactForm">
+          <label for="name">Name: </label>
+          <input id="name" name="name" type="text"
+          placeholder="Enter your name" required>
+
+          <label for="email">Email: </label>
+          <input id="email" name="email" type="email"
+          placeholder="Enter your email" required>
+
+          <label for="phone">Cell No.: </label>
+          <input id="phone" name="phone" type="tel" 
+          placeholder="###-###-####" required>
+
+          <label for="comments">Comments: </label>
+          <textarea id="comments" name="comments" cols="60" rows="10"></textarea>
+        
+          <input type="submit" value="Submit">
+        </form>
+      </article>
+    </main>
+
+</body>
+</html>
+
+<%- include('partials/footer') %>

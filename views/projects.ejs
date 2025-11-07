@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<%- include('partials/header') %>
+
+<!--link to css files-->
+<head>
+  <meta charset="utf-8">
+  <title>Projects — Lemuel Lau</title>
+  <!-- Desktop / Tablet / Mobile CSS files -->
+  <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 992px)">
+</head>
+
+<body>
+    
+    <!--article with list of projects-->
+    <main>
+      <article>
+        <h2>Selected Projects & Assignments</h2>
+
+        <section class="project">
+          <h3>1. Docker Web Server</h3>
+          <p>Built a small Python Flask web server, dockerized it, and hosted locally for testing. Showed how to push images to DockerHub and run containers from image.</p>
+        </section>
+
+        <section class="project">
+          <h3>2. Azure VM Automation</h3>
+          <p>Used Azure CLI scripts to create and configure VMs, and prepared an image to simplify VM deployment for class labs.</p>
+        </section>
+
+        <section class="project">
+          <h3>. Network Simulation Lab</h3>
+          <p>Designed a lab to simulate VLAN segmentation and routing using virtualized appliances for an assignment in Networking.</p>
+        </section>
+
+        <section class="project">
+          <h3>4. Bash Batch Script</h3>
+          <p>Wrote scripts to manage containers, perform backups, and automate routine tasks on a Linux VM.</p>
+        </section>
+
+        <section class="project">
+          <h3>5. Hill & DES Crypto Exercises</h3>
+          <p>Worked through textbook cryptography problems (Hill cipher, DES key derivation) to reinforce understanding and hand computations.</p>
+        </section>
+      </article>
+    </main>
+
+</body>
+</html>
+
+<%- include('partials/footer') %>
